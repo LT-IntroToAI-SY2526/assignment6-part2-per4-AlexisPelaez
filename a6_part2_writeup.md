@@ -7,13 +7,13 @@
 Based on your house price model, rank the four features from most important to least important. Explain how you determined this ranking.
 
 **YOUR ANSWER:**
-1. Most Important: 
-2. 
-3. 
-4. Least Important: 
+1. Most Important: Bedrooms
+2. Bathrooms
+3. Age
+4. Least Important: SquareFeet
 
 **Explanation:**
-
+This ranking was determined by how much impacted the cost. Since square footage could be in the thousands, its importance per foot was very low. However, each bedroom significantly brought the cost up which made it the most important.
 
 
 
@@ -24,10 +24,10 @@ Based on your house price model, rank the four features from most important to l
 Choose TWO features from your model and explain what their coefficients mean in plain English. For example: "Each additional bedroom increases the price by $___"
 
 **Feature 1:**
-
+Each additional square foot increases the price by $121.11
 
 **Feature 2:**
-
+Each additional bedroom increases the price by $6648.97
 
 ---
 
@@ -37,7 +37,7 @@ What was your model's R² score? What does this tell you about how well your mod
 
 **YOUR ANSWER:**
 
-
+My R^2 score was 99.36%. This means that my model predicts house prices 99.36% accurately. Realistically there may not be much more to improve with a correlation that is that high of a percentage.
 
 
 ---
@@ -47,16 +47,16 @@ What was your model's R² score? What does this tell you about how well your mod
 If you could add TWO more features to improve your house price predictions, what would they be and why?
 
 **Feature 1:**
-
+Distance from city
 
 **Why it would help:**
-
+Homes further away from cities tend to be cheaper as a result.
 
 **Feature 2:**
-
+Neighborhood safety
 
 **Why it would help:**
-
+The more violence that there is in an area, the prices of homes in that neighborhood would drop.
 
 ---
 
@@ -66,4 +66,4 @@ Would you trust this model to predict the price of a house with 6 bedrooms, 4 ba
 
 **YOUR ANSWER:**
 
-
+I would trust the model with it as the graphs seem to be consistent and there aren't many external factors that would lower the cost of the house prices so I would trust the model.
